@@ -1,0 +1,35 @@
+--------------------------------------------------------------------------------------------------
+MVC stands for model view controller.
+Model is the data (They are the requests and responses from the client and server).
+View are the pages (HTML or mostly JSP).
+Controller are the scripts that contol the components like buttons, etc.
+--------------------------------------------------------------------------------------------------
+1) All the pages to be displayed on the website should be place inside src/main/webapp/ directory.
+2) Remember that in Java:
+	1) private ClassName classObject1; // this is declaration
+	2) private ClassName classObject2 = new ClassName(); // this is instantiation
+
+
+   Declaration VS Initialization:
+	1) When you declare an object for a class, you tell the compiler that this class exists
+	   somewhere, but the list of children object isnt loaded inside the declared object.
+	2) When you initialize an object for a class, the list of children elements of the class
+	   is loaded into the object.
+
+
+   Therefore,
+	classObject1.childMethod(); // will return an error
+	classObject2.childMethod(); // will execute the method
+
+
+3) Spring framework makes use of a lot of annotations.
+--------------------------------------------------------------------------------------------------
+1) The class that holds the main function should be annoted with "@SpringBootApplication"
+2) The main method of the spring boot application will always have the 
+   SpringApplication.run(MainClass.class, args) method. This method returns objects for the
+   main class.
+3) A context has the ability to hold objects for the entire application.
+4) Please refer the main method of DemoApplication class inside the Demo project on GitHub Spring
+	Boot Repository.
+--------------------------------------------------------------------------------------------------
+
