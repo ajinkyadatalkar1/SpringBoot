@@ -32,4 +32,31 @@ Controller are the scripts that contol the components like buttons, etc.
 4) Please refer the main method of DemoApplication class inside the Demo project on GitHub Spring
 	Boot Repository.
 --------------------------------------------------------------------------------------------------
+Q. What is a context?
+A. A Context represents your environment. It represents the state surrounding where you are in 
+   your system. In android we have application context, base context, etc.
+	1) Application Context: context is attached to the application's life-cycle and will 
+	always be same throughout the life of application. So if you are using Toast, you can
+	use application context or base context, because toast can be raised from anywhere.
+	
+	2) Base Context: This is also termed as activity context. context is attached to the 
+	Activity's life-cycle and can be destroyed if the activity's onDestroy() is raised.
+
+   Similarly with Spring we have context that holds all the objects for the current class and the
+   objects that are passed to it.
+--------------------------------------------------------------------------------------------------
+Q. What are beans?
+A. Beans are nothing but instantiated objects passed to a container.
+--------------------------------------------------------------------------------------------------
+Q. What is a container?
+A. A container holds objects passed to it. By default the objects in spring singltion,i.e. if an
+   instance of an object already exists in a container, then another instance wont be created.
+--------------------------------------------------------------------------------------------------
+Q. What is inversion of control?
+A. Inversion of Control is a principal in software engineering by which the control of the object
+   or portion of a program is transferred to a container or framework.
+
+   The spring container is responsible for instantiating configuring and assembling objects known
+   as beans, as well as managing their lifecycle.
+--------------------------------------------------------------------------------------------------
 
