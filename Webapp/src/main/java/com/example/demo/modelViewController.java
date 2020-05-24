@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class modelViewController {
 	@RequestMapping("mvc")
-	public ModelAndView mvc(@RequestParam("name") String myName) {
+	public ModelAndView mvc(@RequestParam("name") String myName) { // in terms of PHP, $_GET["name"] will work not $_GET["myName"]
 		ModelAndView mv = new ModelAndView();
 		mv.addObject("myName", myName);
 		mv.setViewName("modelview");

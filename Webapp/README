@@ -8,4 +8,11 @@
 	spring.mvc.view.suffix
 7) webapp
 	java server pages
+	Receive response
 8) pom.xml tomcat dependency
+
+
+LINKS:
+1) http://localhost:8080/home
+2) http://localhost:8080/sessioneg?name=ajinkya
+3) http://localhost:8080/mvc?name=ajinkya
