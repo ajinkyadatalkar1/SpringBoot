@@ -1,0 +1,14 @@
+1. demo
+	context
+	@Component
+	@Autowired
+	@Qualifier
+
+2. Webapp
+	@Controller
+	@RequestMapping (GET)
+	@ResponseBody
+	ModelAndView
+	HttpServletRequest and HttpSession
+	application.properties
+	webapp
