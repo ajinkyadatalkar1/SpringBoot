@@ -1,5 +1,9 @@
 --------------------------------------------------------------------------------------------------
 MVC stands for model view controller.
+POM stands for project object model.
+
+pom.xml file holds a list of dependencies used by the project or needed by the project.
+
 Model is the data (They are the requests and responses from the client and server).
 View are the pages (HTML or mostly JSP).
 Controller are the scripts that contol the components like buttons, etc.
