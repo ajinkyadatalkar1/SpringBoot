@@ -12,3 +12,4 @@
 	HttpServletRequest and HttpSession
 	application.properties
 	webapp
+	pom.xml
