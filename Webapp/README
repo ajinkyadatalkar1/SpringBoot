@@ -1,0 +1,10 @@
+1) @Controller
+2) @RequestMapping (GET)
+3) @ResponseBody
+4) ModelAndView
+5) HttpServletRequest and HttpSession
+6) application.properties
+	spring.mvc.view.prefix
+	spring.mvc.view.suffix
+7) webapp
+	java server pages
